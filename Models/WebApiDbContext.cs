@@ -8,5 +8,7 @@ namespace EmilyChiribogaSemana6Backend.Models
         {
         }
         public DbSet<Usuario> Usuarios { get; set; }
+        public DbSet<EventoModel> Eventos { get; set; }
+        public DbSet<FacturaModel> Facturas { get; set; }
     }
 }
